@@ -1,5 +1,5 @@
 import { ComponentMeta } from "@storybook/react";
-import "./MyLabel.css";
+import "./MyLabel.scss";
 import { AllCaps } from "../stories/components/MyLabel.stories";
 
 interface Props {
