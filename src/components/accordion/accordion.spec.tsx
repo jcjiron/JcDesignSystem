@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from '@testing-library/react';
+import Accordion from '../../../dist/components/accordion/index';
 
-import Accordion from './accordion';
-
+Accordion
 describe('Accordion', () => {
   it('should render successfully', () => {
     const { baseElement } = render(<Accordion />);

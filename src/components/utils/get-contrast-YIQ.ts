@@ -1,4 +1,4 @@
-export function getContrastYIQ(hexcolor: string): 'black' | 'white' {
+export function getContrastYIQ(hexcolor: string | undefined): 'black' | 'white' {
     const hex = hexcolor.replace('#', '');
     const r = parseInt(hex.substr(0, 2), 16);
     const g = parseInt(hex.substr(2, 2), 16);

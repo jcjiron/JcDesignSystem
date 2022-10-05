@@ -5,7 +5,7 @@ import UnitCardTitle from './';
 
 describe('UnitCardTitle', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<UnitCardTitle />);
+    const { baseElement } = render(<UnitCardTitle title='' variant='home'/>);
     expect(baseElement).toBeTruthy();
   });
 });
