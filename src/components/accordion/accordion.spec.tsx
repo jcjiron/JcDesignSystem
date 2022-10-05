@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import Accordion from '../../../dist/components/accordion/index';
+import Accordion from './index';
 
 Accordion
 describe('Accordion', () => {

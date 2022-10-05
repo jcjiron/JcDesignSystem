@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 var react_1 = require("@testing-library/react");
-var index_1 = __importDefault(require("../../../dist/components/accordion/index"));
+var index_1 = __importDefault(require("./index"));
 index_1.default;
 describe('Accordion', function () {
     it('should render successfully', function () {

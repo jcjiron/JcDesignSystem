@@ -1,5 +1,4 @@
-import { Story, Meta } from '@storybook/react/types-6-0';
-import { ModalCenteredDialogProps } from './modal-centered-dialog';
+import { Meta } from '@storybook/react/types-6-0';
 declare const _default: Meta<import("@storybook/react/types-6-0").Args>;
 export default _default;
-export declare const Primary: Story<ModalCenteredDialogProps>;
+export declare const Primary: any;

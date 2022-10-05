@@ -10,4 +10,4 @@ export declare type ModalProps = {
     animate?: boolean;
     children?: ReactNode;
 } & ComponentPropsWithoutRef<'div'>;
-export declare const Modal: ({ children, show, animate, className, ...props }: ModalProps) => false | JSX.Element;
+export declare const Modal: ({ children, show, animate, className, ...props }: ModalProps) => JSX.Element;

@@ -4,5 +4,5 @@ export declare type TabsContextType = {
     setActiveTab: (label: string) => void;
     mountOnEnter?: boolean;
 };
-export declare const TabsContext: React.Context<TabsContextType | undefined>;
+export declare const TabsContext: React.Context<TabsContextType>;
 export declare function useTabContext(): TabsContextType;
