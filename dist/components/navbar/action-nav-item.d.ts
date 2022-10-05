@@ -7,7 +7,7 @@ export declare type ActionNavLinkProps = {
     itemText?: string;
     children?: ReactElement<DropDownMenuProps<DropDownItem>>;
 };
-export declare const ActionDropDownNavLink: ({ itemText, Icon, children, className, }: ActionNavLinkProps) => JSX.Element;
+export declare const ActionDropDownNavLink: ({ itemText, Icon: CustomIcon, children, className, }: ActionNavLinkProps) => JSX.Element;
 declare type ActionNavItemProps = {
     variant: 'light' | 'dark' | 'transparent';
     children: ReactNode;

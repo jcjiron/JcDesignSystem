@@ -2,6 +2,7 @@
   "name": "jcdesignsystem",
   "version": "0.1.0",
   "private": false,
+  "license": "MIT",
   "typings": "",
   "repository": {
     "url": "https://github.com/jcjiron/JcDesignSystem",
@@ -103,5 +104,5 @@
     "@semantic-release/github",
     "@semantic-release/npm",
     "@semantic-release/git"
-]
+  ]
 }

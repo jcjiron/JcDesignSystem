@@ -1,2 +1,2 @@
-export { MainFeatureItem, MainFeatureItemProps } from './main-feature-item';
-export { MainFeatures, MainFeaturesProps } from './main-features';
+export { MainFeatureItem } from './main-feature-item';
+export { MainFeatures } from './main-features';

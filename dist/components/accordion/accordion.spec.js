@@ -5,10 +5,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsx_runtime_1 = require("react/jsx-runtime");
 var react_1 = require("@testing-library/react");
-var accordion_1 = __importDefault(require("./accordion"));
+var index_1 = __importDefault(require("../../../dist/components/accordion/index"));
+index_1.default;
 describe('Accordion', function () {
     it('should render successfully', function () {
-        var baseElement = (0, react_1.render)((0, jsx_runtime_1.jsx)(accordion_1.default, {})).baseElement;
+        var baseElement = (0, react_1.render)((0, jsx_runtime_1.jsx)(index_1.default, {})).baseElement;
         expect(baseElement).toBeTruthy();
     });
 });
