@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 
 import styled from "styled-components";
-import favoriteIcon from "../../../../assets/images/icons/heart-icon.svg";
-import filledFavoriteIcon from "../../../../assets/images/icons/filled-heart-icon.svg";
-
+const favoriteIcon = require("../../../../assets/images/icons/heart-icon.svg") as string;
+const filledFavoriteIcon = require("../../../../assets/images/icons/filled-heart-icon.svg") as string;
 /* eslint-disable-next-line */
 export type FavoriteButtonProps = {};
 

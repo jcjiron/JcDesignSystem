@@ -96,7 +96,7 @@ export {
 export {
   TwoColumnsLayout,
   TwoColumnsLayoutProps,
-} from "./components/wo-columns-layout/index";
+} from "./components/two-columns-layout/index";
 export { customScrollBar } from "./components/scroll-bar/index";
 export {
   TwoColumnsModal,

@@ -16,7 +16,7 @@ function useOnFocus({
   onFocusOut,
   onFocusIn,
 }: useFocusOutParams): useFocusOutReturnType {
-  const timeOutId = React.useRef<number>();
+  const timeOutId = React.useRef<number | any>();
   const userAgent = getBrowserName();
   const isSafari = userAgent === 'Apple Safari';
   const isFirefox = userAgent === 'Mozilla Firefox';

@@ -5,7 +5,7 @@ import { UnitCardPriceItem } from './index';
 
 describe('PriceItem', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<UnitCardPriceItem />);
+    const { baseElement } = render(<UnitCardPriceItem stagingTitle={''} pricePerNight={0} priceTitle={''} />);
     expect(baseElement).toBeTruthy();
   });
 });
