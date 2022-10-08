@@ -14,7 +14,7 @@ export declare type CarouselProps = {
     withDescription?: boolean;
     links?: string[];
 };
-export declare const Carousel: ({ interval, images, withControls, withSwipe, withIndicators, withDescription, links, className, onChangeSlide, background, transitionEffect: trasitionEffect, ...props }: CarouselProps) => JSX.Element;
+export declare const Carousel: ({ interval, images, withControls, withSwipe, withIndicators, withDescription, links, className, onChangeSlide, background, transitionEffect, ...props }: CarouselProps) => JSX.Element;
 export interface CarouselImage {
     src: string;
     fallbackSrc: string;

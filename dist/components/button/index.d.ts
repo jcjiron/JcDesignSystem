@@ -13,5 +13,5 @@ export declare type ButtonProps = {
     refer?: React.Ref<HTMLButtonElement>;
     disabled?: boolean;
 } & React.ComponentPropsWithoutRef<'button'>;
-export declare const Button: ({ className, variant, size, children, outline, readonly, shape, icon, refer: ref, ...props }: ButtonProps) => JSX.Element;
+export declare const Button: ({ className, variant, size, children, outline, readonly, shape, icon, refer, ...props }: ButtonProps) => JSX.Element;
 export default Button;

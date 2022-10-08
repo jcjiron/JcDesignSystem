@@ -30,7 +30,7 @@ export { Footer, FooterProps } from "./components/footer/index";
 export { List, ListItem, ListItemProps, ListProps, } from "./components/list/index";
 export { AboutApartment, AboutApartmentProperty, AboutApartmentPropertyProps, AboutApartmentProps, MainFeatureItem, MainFeatureItemProps, MainFeatures, MainFeaturesProps, } from "./components/apartment-detail/index";
 export { Heading, HeadingProps, Text, TextProps, TypographyContainer, TypographyContainerProps, TypographyStyles, } from "./components/typography/index";
-export { TwoColumnsLayout, TwoColumnsLayoutProps, } from "./components/wo-columns-layout/index";
+export { TwoColumnsLayout, TwoColumnsLayoutProps, } from "./components/two-columns-layout/index";
 export { customScrollBar } from "./components/scroll-bar/index";
 export { TwoColumnsModal, TwoColumnsModalProps, } from "./components/two-columns-modal/index";
 export { ModalPopup, ModalPopupProps } from "./components/modal-popup";
