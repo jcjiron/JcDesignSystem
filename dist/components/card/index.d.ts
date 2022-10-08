@@ -1,8 +1,8 @@
-import Card from './card';
+import Card from './card'
 export interface CardImage {
-    src: string;
-    fallbackSrc: string;
-    alt?: string;
-    thumbnail?: string;
+    src: string
+    fallbackSrc: string
+    alt?: string
+    thumbnail?: string
 }
-export { Card };
+export { Card }

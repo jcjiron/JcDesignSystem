@@ -1,8 +1,8 @@
 import {
-  TwoColumnsModal,
-  TwoColumnsModalProps as Props,
-} from './two-columns-modal';
+    TwoColumnsModal,
+    TwoColumnsModalProps as Props,
+} from './two-columns-modal'
 
-export { TwoColumnsModal };
+export { TwoColumnsModal }
 
-export type TwoColumnsModalProps = Props;
+export type TwoColumnsModalProps = Props

@@ -1,12 +1,15 @@
-import React from 'react';
+import React from 'react'
 declare type useFocusOutReturnType = {
-    onBlurHandler: () => void;
-    onFocusHandler: () => void;
-    listeningRef: React.MutableRefObject<undefined>;
-};
+    onBlurHandler: () => void
+    onFocusHandler: () => void
+    listeningRef: React.MutableRefObject<undefined>
+}
 declare type useFocusOutParams = {
-    onFocusOut?: () => void;
-    onFocusIn?: () => void;
-};
-declare function useOnFocus({ onFocusOut, onFocusIn, }: useFocusOutParams): useFocusOutReturnType;
-export default useOnFocus;
+    onFocusOut?: () => void
+    onFocusIn?: () => void
+}
+declare function useOnFocus({
+    onFocusOut,
+    onFocusIn,
+}: useFocusOutParams): useFocusOutReturnType
+export default useOnFocus

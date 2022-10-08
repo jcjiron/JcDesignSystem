@@ -1,3 +1,3 @@
-import CardPrice from './card-price';
+import CardPrice from './card-price'
 
-export { CardPrice };
+export { CardPrice }

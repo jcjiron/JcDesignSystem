@@ -1,12 +1,12 @@
-import React from 'react';
-import { ReactElement } from 'react';
+import React from 'react'
+import { ReactElement } from 'react'
 
 export type NavLinkProps = {
-  children: ReactElement;
-};
+    children: ReactElement
+}
 
 export const NavLink = ({ children }: NavLinkProps) => {
-  return React.cloneElement(children, {
-    className: 'nav-link',
-  });
-};
+    return React.cloneElement(children, {
+        className: 'nav-link',
+    })
+}

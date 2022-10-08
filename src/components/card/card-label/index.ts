@@ -1,3 +1,3 @@
-import CardLabel from './card-label';
+import CardLabel from './card-label'
 
-export { CardLabel };
+export { CardLabel }

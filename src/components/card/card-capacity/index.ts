@@ -1,3 +1,3 @@
-import CardCapacity from './card-capacity';
+import CardCapacity from './card-capacity'
 
-export { CardCapacity };
+export { CardCapacity }

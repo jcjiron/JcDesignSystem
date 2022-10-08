@@ -1,3 +1,3 @@
-import CardDates from './card-dates';
+import CardDates from './card-dates'
 
-export { CardDates };
+export { CardDates }

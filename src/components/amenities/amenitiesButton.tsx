@@ -1,9 +1,9 @@
-import React, { FC } from 'react';
-import styled from 'styled-components';
+import React, { FC } from 'react'
+import styled from 'styled-components'
 
 interface AmenitiesButtonProps {
-    textButton: string;
-    onClick: () => void;
+    textButton: string
+    onClick: () => void
 }
 
 const AmenityButton = styled.button`
@@ -15,18 +15,14 @@ const AmenityButton = styled.button`
     display: block;
     margin: 0 auto;
 
-    @media (min-width: 768px){
+    @media (min-width: 768px) {
         display: none;
     }
-`;
+`
 
 export const AmenitiesButton: FC<AmenitiesButtonProps> = ({
     textButton,
-    onClick
+    onClick,
 }) => {
-    return (
-        <AmenityButton onClick={onClick}>
-            {textButton}
-        </AmenityButton>
-    )
+    return <AmenityButton onClick={onClick}>{textButton}</AmenityButton>
 }

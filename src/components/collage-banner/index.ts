@@ -1,1 +1,1 @@
-export * from './collage-banner';
+export * from './collage-banner'

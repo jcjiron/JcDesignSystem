@@ -1,1 +1,1 @@
-export { GuestsInput, GuestsInputProps } from './guests-input';
+export { GuestsInput, GuestsInputProps } from './guests-input'

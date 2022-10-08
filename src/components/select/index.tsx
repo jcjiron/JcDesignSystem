@@ -1,8 +1,8 @@
-import Select from './select';
+import Select from './select'
 
 type Option = {
-  name: string | number;
-  value: string | number;
-};
+    name: string | number
+    value: string | number
+}
 
-export { Select, Option };
+export { Select, Option }

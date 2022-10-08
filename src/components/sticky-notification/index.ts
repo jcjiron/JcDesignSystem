@@ -1,1 +1,4 @@
-export { StickyNotification, StickyNotificationProps } from "./sticky-notification";
+export {
+    StickyNotification,
+    StickyNotificationProps,
+} from './sticky-notification'

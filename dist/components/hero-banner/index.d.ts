@@ -1,8 +1,8 @@
-import Hero from './Hero';
+import Hero from './Hero'
 export interface HeroImage {
-    src: string;
-    fallbackSrc: string;
-    alt?: string;
-    thumbnail?: string;
+    src: string
+    fallbackSrc: string
+    alt?: string
+    thumbnail?: string
 }
-export { Hero };
+export { Hero }

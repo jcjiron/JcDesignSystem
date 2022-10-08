@@ -1,2 +1,2 @@
-import CardLocation from './card-location';
-export { CardLocation };
+import CardLocation from './card-location'
+export { CardLocation }

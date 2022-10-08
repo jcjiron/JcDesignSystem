@@ -1,5 +1,5 @@
-import { Meta } from '@storybook/react/types-6-0';
-declare const _default: Meta<import("@storybook/react/types-6-0").Args>;
-export default _default;
-export declare const Horizontal: any;
-export declare const Vertical: any;
+import { Meta } from '@storybook/react/types-6-0'
+declare const _default: Meta<import('@storybook/react/types-6-0').Args>
+export default _default
+export declare const Horizontal: any
+export declare const Vertical: any

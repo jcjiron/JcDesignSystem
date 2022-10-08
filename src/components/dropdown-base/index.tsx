@@ -1,1 +1,1 @@
-export { DropdownBase, DropdownBaseProps } from './dropdown-base';
+export { DropdownBase, DropdownBaseProps } from './dropdown-base'

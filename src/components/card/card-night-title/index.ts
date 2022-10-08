@@ -1,3 +1,3 @@
-import CardNightTitle from './card-night-title';
+import CardNightTitle from './card-night-title'
 
-export { CardNightTitle };
+export { CardNightTitle }

@@ -1,3 +1,3 @@
-import CardNotes from './card-notes';
+import CardNotes from './card-notes'
 
-export { CardNotes };
+export { CardNotes }

@@ -1,3 +1,4 @@
 export {
-    ModalCenteredDialog, ModalCenteredDialogProps
-} from './modal-centered-dialog';
+    ModalCenteredDialog,
+    ModalCenteredDialogProps,
+} from './modal-centered-dialog'
