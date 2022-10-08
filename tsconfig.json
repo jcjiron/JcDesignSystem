@@ -2,6 +2,8 @@
   "compilerOptions": {
     "outDir": "dist",
     "target": "es5",
+    "typings": "dist/index.d.ts",
+    "main": "dist/index.js",
     "lib": [
       "dom",
       "dom.iterable",
@@ -18,9 +20,9 @@
     "module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "noEmit": false,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
   },
   "include": [
     "src"
