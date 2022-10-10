@@ -1,2 +1,2 @@
-import { Alert } from './alert.component'
-export { Alert }
+import { Alert } from './alert.component';
+export { Alert };

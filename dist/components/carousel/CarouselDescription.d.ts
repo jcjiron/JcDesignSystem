@@ -1,13 +1,9 @@
 /// <reference types="react" />
-import { CarouselImage } from '.'
+import { CarouselImage } from '.';
 interface CarouselDescriptionProps {
-    images: CarouselImage[]
-    activeIndex: number
-    links: string[]
+    images: CarouselImage[];
+    activeIndex: number;
+    links: string[];
 }
-export declare const CarouselDescription: ({
-    images,
-    activeIndex,
-    links,
-}: CarouselDescriptionProps) => JSX.Element
-export {}
+export declare const CarouselDescription: ({ images, activeIndex, links, }: CarouselDescriptionProps) => JSX.Element;
+export {};

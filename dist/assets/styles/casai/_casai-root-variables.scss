@@ -1,0 +1,60 @@
+:root {
+    --gray: #{$gray};
+    --red: #{$red};
+    --danger: #{$danger};
+    --jet: #{$jet};
+    --black: #{$black};
+    --beige: #{$beige};
+    --dark-bg: #{$dark-bg};
+    --violet: #{$violet};
+    --green: #{$green};
+    --primary-darker: #{$primary-darker};
+    --primary-lighter: #{$primary-lighter};
+    --primary-dark: #{$primary-dark};
+    --crimson: #{$crimson};
+    --dimgray: #{$dimgray};
+    --white: #{$white};
+    --darkgray: #{$darkgray};
+    --licorice: #{$licorice};
+    --lightgray: #{$lightgray};
+    --mediumgray: #{$mediumgray};
+    --mildwhite: #{$mildwhite};
+    --truewhite: #{$truewhite};
+    --eerieblack: #{$eerieblack};
+    --blackolive: #{$blackolive};
+    --raisinblack: #{$raisinblack};
+    --antiflashwhite: #{$antiflashwhite};
+    --transparent: #{$transparent};
+    --darkslategray: #{$darkslategray};
+    --warning: #{$warning};
+    --success: #{$success};
+    --warning-darker: #{$warning-darker};
+    --paragraph-color: #{$paragraph-color};
+    --whatsapp-color: #{$whatsapp-color};
+
+    /* :: DESIGN SYSTEM COLORS */
+    /* : Primary :  */
+    --primary: #{$primary};
+    --primary-100: #{$primary-100};
+    --primary-200: #{$primary-200};
+    --primary-300: #{$primary-300};
+    --primary-400: #{$primary-400};
+    --primary-500: #{$primary-500};
+    --primary-600: #{$primary-600};
+    --primary-700: #{$primary-700};
+    --primary-800: #{$primary-800};
+
+    /* : Neutrals :  */
+    --neutral-100: #{$neutral-100};
+    --neutral-200: #{$neutral-200};
+    --neutral-300: #{$neutral-300};
+    --neutral-400: #{$neutral-400};
+    --neutral-500: #{$neutral-500};
+    --neutral-600: #{$neutral-600};
+    --neutral-700: #{$neutral-700};
+    --neutral-800: #{$neutral-800};
+
+    /* : Background : */
+    --white-bg: #{$white-bg};
+    --warm-bg: #{$warm-bg};
+}

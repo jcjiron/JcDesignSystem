@@ -1,1 +1,1 @@
-export declare const useScreenWidth: () => number
+export declare const useScreenWidth: () => number;

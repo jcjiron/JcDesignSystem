@@ -1,1 +1,1 @@
-export declare const customScrollBar: import('styled-components').FlattenSimpleInterpolation
+export declare const customScrollBar: import("styled-components").FlattenSimpleInterpolation;

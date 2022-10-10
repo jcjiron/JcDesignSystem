@@ -1,1 +1,1 @@
-export * from './modal-with-navigation'
+export * from './modal-with-navigation';

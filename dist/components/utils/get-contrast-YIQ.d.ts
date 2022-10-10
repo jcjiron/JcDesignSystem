@@ -1,3 +1,1 @@
-export declare function getContrastYIQ(
-    hexcolor: string | undefined
-): 'black' | 'white'
+export declare function getContrastYIQ(hexcolor: string | undefined): 'black' | 'white';

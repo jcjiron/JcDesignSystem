@@ -1,2 +1,2 @@
-import FavoriteButton from './favorite-button'
-export { FavoriteButton }
+import FavoriteButton from './favorite-button';
+export { FavoriteButton };

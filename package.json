@@ -20,6 +20,7 @@
         "@types/react-dom": "^18.0.6",
         "@types/styled-components": "^5.1.26",
         "bootstrap": "^4.5.2",
+        "copyfiles": "^2.4.1",
         "date-fns": "^2.19.0",
         "prettier": "^2.7.1",
         "react": "^18.2.0",
@@ -33,12 +34,13 @@
     },
     "scripts": {
         "start": "start-storybook -p 6006",
-        "build": "yarn clean && tsc",
+        "build": "yarn clean && tsc && yarn copy-files",
         "test": "jest",
         "eject": "react-scripts eject",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
-        "clean": "rimraf dist/"
+        "clean": "rimraf dist/",
+        "copy-files": "copyfiles -u 1 assets/**/**/*.* dist/assets/"
     },
     "eslintConfig": {
         "extends": [

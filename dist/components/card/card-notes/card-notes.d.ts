@@ -1,6 +1,6 @@
-import { ReactNode } from 'react'
+import { ReactNode } from 'react';
 export declare type CardNotesProps = {
-    children: ReactNode
-}
-export declare const CardNotes: ({ children }: CardNotesProps) => JSX.Element
-export default CardNotes
+    children: ReactNode;
+};
+export declare const CardNotes: ({ children }: CardNotesProps) => JSX.Element;
+export default CardNotes;
