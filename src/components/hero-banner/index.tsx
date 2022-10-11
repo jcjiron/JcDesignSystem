@@ -6,5 +6,3 @@ export interface HeroImage {
     alt?: string
     thumbnail?: string
 }
-
-export { Hero }
