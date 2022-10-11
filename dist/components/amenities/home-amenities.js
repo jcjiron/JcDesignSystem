@@ -38,8 +38,8 @@ var use_screen_width_1 = require("../hooks/use-screen-width/use-screen-width");
 var amenities_1 = require("./amenities");
 var StyledBtn = (0, styled_components_1.default)(button_1.default)(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n    margin: 0 auto;\n    @media (min-width: 768px) {\n        visibility: hidden;\n    }\n"], ["\n    margin: 0 auto;\n    @media (min-width: 768px) {\n        visibility: hidden;\n    }\n"])));
 var HomeAmenitites = function (_a) {
-    var images = _a.images, buttonLabel = _a.buttonLabel;
-    var _b = (0, react_2.useState)(images), filteredImages = _b[0], setImages = _b[1];
+    var _b = _a.images, images = _b === void 0 ? [] : _b, buttonLabel = _a.buttonLabel;
+    var _c = (0, react_2.useState)(images), filteredImages = _c[0], setImages = _c[1];
     var widthSize = (0, use_screen_width_1.useScreenWidth)();
     (0, react_1.useEffect)(function () {
         if (widthSize <= use_screen_size_1.ScreenSize.SMALL) {

@@ -1,9 +1,9 @@
 /* minimal styles for custom components, contains bootstrap base files, fonts, initial variables */
-@import '../assets/fonts/fonts';
-@import './assets/styles/casai/font-variables';
-@import './assets/styles/casai/icomoon';
-@import './assets/styles/casai/variables';
-@import './assets/styles/bootstrap/base';
+@import '../fonts/_fonts';
+@import './font-variables';
+@import './icomoon';
+@import './variables';
+@import '../bootstrap/base';
 
 @import '~bootstrap/scss/utilities';
 @import '~bootstrap/scss/transitions';
@@ -11,39 +11,41 @@
 @import '~bootstrap/scss/grid';
 
 /* added required root variables in casai webapp */
-@import './assets/styles/casai/casai-root-variables';
+@import './casai-root-variables';
 
 /* added required bootstrap styles, we need this until we remove direct bootstrap uses in casai webapp */
 @import '~bootstrap/scss/root';
 @import '~bootstrap/scss/type';
 @import '~bootstrap/scss/images';
-
+// @import '~bootstrap/scss/code';
 @import '~bootstrap/scss/tables';
 @import '~bootstrap/scss/forms';
 @import '~bootstrap/scss/buttons';
-
+// @import '~bootstrap/scss/transitions';
 @import '~bootstrap/scss/dropdown';
 @import '~bootstrap/scss/button-group';
 @import '~bootstrap/scss/input-group';
 @import '~bootstrap/scss/custom-forms';
 @import '~bootstrap/scss/nav';
-
+// @import '~bootstrap/scss/navbar';
 @import '~bootstrap/scss/card';
 @import '~bootstrap/scss/breadcrumb';
 @import '~bootstrap/scss/pagination';
 @import '~bootstrap/scss/badge';
 @import '~bootstrap/scss/jumbotron';
-
+// @import '~bootstrap/scss/alert';
 @import '~bootstrap/scss/progress';
 @import '~bootstrap/scss/media';
-
+// @import '~bootstrap/scss/list-group';
+// @import '~bootstrap/scss/close';
 @import '~bootstrap/scss/toasts';
 @import '~bootstrap/scss/modal';
 @import '~bootstrap/scss/tooltip';
 @import '~bootstrap/scss/popover';
 @import '~bootstrap/scss/carousel';
 @import '~bootstrap/scss/spinners';
+// @import '~bootstrap/scss/utilities';
 @import '~bootstrap/scss/print';
 
 /* overrides for bootstrap styles */
-@import './assets/styles/casai/bootstrap_overrides';
+@import '../bootstrap_overrides';

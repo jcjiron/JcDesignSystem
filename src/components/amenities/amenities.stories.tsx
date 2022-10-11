@@ -71,7 +71,7 @@ const data: AmenityImage[] = [
 
 const Template: Story<HomeAmenititesProps> = ({
     ...props
-}: HomeAmenititesProps) => <HomeAmenitites {...props} />
+}: HomeAmenititesProps) => <HomeAmenitites {...props} images={data} />
 
 export const Primary = Template.bind({})
 

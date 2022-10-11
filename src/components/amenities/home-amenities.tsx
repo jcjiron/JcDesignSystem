@@ -17,7 +17,7 @@ const StyledBtn = styled(Button)`
     }
 `
 export const HomeAmenitites = ({
-    images,
+    images = [],
     buttonLabel,
 }: HomeAmenititesProps) => {
     const [filteredImages, setImages] = useState(images)

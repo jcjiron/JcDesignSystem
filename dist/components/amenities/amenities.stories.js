@@ -90,7 +90,7 @@ var data = [
 ];
 var Template = function (_a) {
     var props = __rest(_a, []);
-    return (0, jsx_runtime_1.jsx)(home_amenities_1.HomeAmenitites, __assign({}, props));
+    return (0, jsx_runtime_1.jsx)(home_amenities_1.HomeAmenitites, __assign({}, props, { images: data }));
 };
 exports.Primary = Template.bind({});
 exports.Primary.args = {};

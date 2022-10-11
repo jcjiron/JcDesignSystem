@@ -13,10 +13,18 @@
         "noFallthroughCasesInSwitch": true,
         "module": "CommonJS",
         "moduleResolution": "node",
+        "typeRoots": ["node_modules/@types"],
         "resolveJsonModule": true,
         "isolatedModules": false,
         "noEmit": false,
-        "jsx": "react-jsx"
+        "jsx": "react-jsx",
+        "baseUrl": ".",
+        "paths": {
+            "@casai/design-system": ["libs/design-system/src/index.ts"],
+            "@casai/design-system/button": [
+                "libs/design-system/src/button/index.tsx"
+            ]
+        }
     },
     "include": ["src"]
 }
