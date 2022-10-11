@@ -18,10 +18,7 @@
         "isolatedModules": false,
         "noEmit": false,
         "jsx": "react-jsx",
-        "baseUrl": ".",
-        "paths": {
-            "jcjdesignsystem": ["src/index.ts"]
-        }
+        "baseUrl": "."
     },
     "include": ["src"]
 }

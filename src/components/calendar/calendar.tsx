@@ -1,6 +1,6 @@
 import React from 'react'
-import './calendar.styles.scss'
-import './calendar.default.scss'
+import '../../../assets/styles/casai/calendar.styles.scss'
+import '../../../assets/styles/casai/calendar.default.scss'
 import { DateRange, DateRangeProps } from '@casai-org/react-date-range'
 import StyledCalendar from './StyledCalendar'
 
