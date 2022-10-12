@@ -1,8 +1,8 @@
 import { HeroImage } from './components/hero-banner'
 import Hero from './components/hero-banner/Hero'
-import SearchBar from './components/search-bar'
+import SearchBarContainer from './components/search-bar'
 
-export { SearchBar }
+export { SearchBarContainer }
 export { Hero, HeroImage }
 export {
     DateRangeProps,

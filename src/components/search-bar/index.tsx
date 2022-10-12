@@ -41,7 +41,7 @@ const StyledButton = styled(Button)`
     }
 `
 
-const SearchBar = ({
+const SearchBarContainer = ({
     children,
     shrink,
     onSearchClick,
@@ -64,4 +64,4 @@ const SearchBar = ({
     )
 }
 
-export default SearchBar
+export default SearchBarContainer
