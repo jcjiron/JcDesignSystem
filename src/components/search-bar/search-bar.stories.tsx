@@ -1,6 +1,6 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react/types-6-0'
-import SearchBar from './index'
+import SearchBarContainer from './index'
 import styled from 'styled-components'
 import { Calendar, ICalendarRange, ISelectionRange } from '../calendar'
 import addDays from 'date-fns/addDays'
@@ -12,7 +12,7 @@ import { Icon } from '../icon'
 
 export default {
     title: 'Example/Search Bar',
-    component: SearchBar,
+    component: SearchBarContainer,
 } as Meta
 
 const StyledSelect = styled(Select)`
@@ -103,7 +103,7 @@ const Template: Story = () => {
     const [guests, setGuests] = React.useState<number>(1)
 
     return (
-        <SearchBar>
+        <SearchBarContainer>
             <StyledSelect
                 options={cities}
                 onChange={setSelectedCity}
@@ -135,7 +135,7 @@ const Template: Story = () => {
                     />
                 </CounterContainer>
             </StyledDropDown>
-        </SearchBar>
+        </SearchBarContainer>
     )
 }
 
@@ -363,14 +363,14 @@ const Mobile: Story = () => {
     }
 
     return (
-        <SearchBar onSearchClick={onSearch}>
+        <SearchBarContainer onSearchClick={onSearch}>
             <div
                 className="d-flex align-items-center"
                 style={{ padding: '8px 16px' }}
             >
                 <span>Find your next stay</span>
             </div>
-        </SearchBar>
+        </SearchBarContainer>
     )
 }
 
