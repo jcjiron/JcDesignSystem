@@ -27,8 +27,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Calendar = void 0;
 var jsx_runtime_1 = require("react/jsx-runtime");
-require("./calendar.styles.scss");
-require("./calendar.default.scss");
+require("../../../assets/styles/casai/calendar.styles.scss");
+require("../../../assets/styles/casai/calendar.default.scss");
 var react_date_range_1 = require("@casai-org/react-date-range");
 var StyledCalendar_1 = __importDefault(require("./StyledCalendar"));
 var calendarConfig = {

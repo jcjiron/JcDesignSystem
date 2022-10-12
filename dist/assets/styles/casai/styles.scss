@@ -1,5 +1,5 @@
 /* minimal styles for custom components, contains bootstrap base files, fonts, initial variables */
-@import '../fonts/_fonts';
+@import './fonts';
 @import './font-variables';
 @import './icomoon';
 @import './variables';
@@ -48,4 +48,4 @@
 @import '~bootstrap/scss/print';
 
 /* overrides for bootstrap styles */
-@import '../bootstrap_overrides';
+@import './bootstrap_overrides';

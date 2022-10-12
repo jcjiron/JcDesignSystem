@@ -1,6 +1,6 @@
 /// <reference types="react" />
-import './calendar.styles.scss';
-import './calendar.default.scss';
+import '../../../assets/styles/casai/calendar.styles.scss';
+import '../../../assets/styles/casai/calendar.default.scss';
 import { DateRangeProps } from '@casai-org/react-date-range';
 export interface ICalendarRange {
     startDate?: Date;
